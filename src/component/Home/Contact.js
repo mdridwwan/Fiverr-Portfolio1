@@ -1,11 +1,16 @@
 import React from 'react'
+import ContactForm from '../Share/ContactForm/ContactForm'
+import HeroImg2 from '../Share/HeroImg2/HeroImg2'
 import Navbar from '../Share/Navbar/Navbar'
+import Footer from '../Share/Footer/Footer';
 
 const contact = () => {
   return (
     <div>
         <Navbar></Navbar>
-        <h1>Helow</h1>
+        <HeroImg2 heading="CONTACT." text="Lets have a chat" />
+        <ContactForm/>
+        <Footer/>
     </div>
   )
 }
